@@ -3,11 +3,11 @@
 #include <string.h>  
 
 struct Node{
-   int data;            // ya estaba
-   char nombre[20];     // ya estaba
-   float promedio;      // 👈 nuevo
-   double salario;      // 👈 nuevo
-   long id;             // 👈 nuevo
+   int data;            
+   char nombre[20];     
+   float promedio;      
+   double salario;      
+   long id;             
    struct Node* next;
 };
 
